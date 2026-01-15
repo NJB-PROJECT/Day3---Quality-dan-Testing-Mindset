@@ -381,6 +381,6 @@ if (typeof require !== 'undefined' && typeof module !== 'undefined') {
     if (typeof EnhancedTask === 'undefined') {
         EnhancedTask = require('../models/EnhancedTask');
     }
-}else {
+} else {
     window.TaskRepository = TaskRepository;
 }
