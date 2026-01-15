@@ -1,0 +1,10 @@
+
+> task-management-starter@1.0.0 start
+> node server.js
+
+🚀 Development server running at http://localhost:3000
+📁 Serving files from: /app/public
+
+📖 Ready for development!
+
+🛑 Press Ctrl+C to stop the server
