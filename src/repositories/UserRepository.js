@@ -248,11 +248,12 @@ class UserRepository {
 }
 
 // Export untuk digunakan di file lain
-if (typeof require !== 'undefined' && typeof module !== 'undefined') {
+if (typeof module !== 'undefined' && module.exports) {
     // Hanya import jika kita benar-benar di Node.js environment
     if (typeof User === 'undefined') {
         User = require('../models/User');
     }
+    module.exports = UserRepository;
 } else {
     window.UserRepository = UserRepository;
 }
